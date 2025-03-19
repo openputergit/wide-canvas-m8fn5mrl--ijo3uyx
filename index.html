@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroCraft - Smart Agriculture & Handicrafts Platform</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <style>
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+        .hero-gradient {
+            background: linear-gradient(135deg, #1a5f7a 0%, #159957 100%);
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+            transition: all 0.3s ease;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <span class="text-2xl font-bold text-green-600">AgroCraft</span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#" class="text-gray-600 hover:text-green-600">Home</a>
+                    <a href="#" class="text-gray-600 hover:text-green-600">Marketplace</a>
+                    <a href="#" class="text-gray-600 hover:text-green-600">Storage Monitor</a>
+                    <a href="#" class="text-gray-600 hover:text-green-600">Price Analysis</a>
+                    <a href="#" class="text-gray-600 hover:text-green-600">Logistics</a>
+                    <button class="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700">Login</button>
+                </div>
+                <div class="md:hidden flex items-center">
+                    <button class="mobile-menu-button">
+                        <i class="bi bi-list text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-gradient text-white">
+        <div class="max-w-7xl mx-auto px-4 py-20">
+            <div class="grid md:grid-cols-2 gap-8 items-center">
+                <div>
+                    <h1 class="text-4xl md:text-5xl font-bold mb-6">Revolutionizing Agriculture & Handicrafts with AI</h1>
+                    <p class="text-lg mb-8">Empowering farmers and artisans with cutting-edge technology for better market access and fair prices.</p>
+                    <div class="space-x-4">
+                        <button class="bg-white text-green-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100">Get Started</button>
+                        <button class="border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-green-600">Learn More</button>
+                    </div>
+                </div>
+                <div class="hidden md:block">
+                    <img src="https://images.unsplash.com/photo-1592982537447-6e3e056bca3f?auto=format&fit=crop&q=80" alt="Agriculture" class="rounded-lg shadow-xl">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <div class="max-w-7xl mx-auto px-4 py-16">
+        <h2 class="text-3xl font-bold text-center mb-12">Our Smart Features</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+            <!-- Storage Monitoring -->
+            <div class="feature-card bg-white p-6 rounded-xl shadow-lg">
+                <i class="bi bi-camera text-4xl text-green-600"></i>
+                <h3 class="text-xl font-semibold mt-4 mb-2">AI Storage Monitoring</h3>
+                <p class="text-gray-600">Upload images of stored crops for real-time analysis and get instant quality assessment.</p>
+                <button class="mt-4 text-green-600 hover:text-green-700">Try Now →</button>
+            </div>
+
+            <!-- Blockchain Marketplace -->
+            <div class="feature-card bg-white p-6 rounded-xl shadow-lg">
+                <i class="bi bi-box-seam text-4xl text-green-600"></i>
+                <h3 class="text-xl font-semibold mt-4 mb-2">Secure Marketplace</h3>
+                <p class="text-gray-600">Trade with confidence using our blockchain-based verification system.</p>
+                <button class="mt-4 text-green-600 hover:text-green-700">Explore Market →</button>
+            </div>
+
+            <!-- Price Prediction -->
+            <div class="feature-card bg-white p-6 rounded-xl shadow-lg">
+                <i class="bi bi-graph-up-arrow text-4xl text-green-600"></i>
+                <h3 class="text-xl font-semibold mt-4 mb-2">Smart Price Prediction</h3>
+                <p class="text-gray-600">Get AI-powered price recommendations based on market trends.</p>
+                <button class="mt-4 text-green-600 hover:text-green-700">Check Prices →</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- How It Works -->
+    <div class="bg-gray-100 py-16">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">How It Works</h2>
+            <div class="grid md:grid-cols-4 gap-8 text-center">
+                <div>
+                    <div class="bg-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="bi bi-1-circle text-2xl text-green-600"></i>
+                    </div>
+                    <h3 class="font-semibold mb-2">Upload Images</h3>
+                    <p class="text-gray-600">Take photos of your products</p>
+                </div>
+                <div>
+                    <div class="bg-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="bi bi-2-circle text-2xl text-green-600"></i>
+                    </div>
+                    <h3 class="font-semibold mb-2">AI Analysis</h3>
+                    <p class="text-gray-600">Get instant quality assessment</p>
+                </div>
+                <div>
+                    <div class="bg-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="bi bi-3-circle text-2xl text-green-600"></i>
+                    </div>
+                    <h3 class="font-semibold mb-2">List Products</h3>
+                    <p class="text-gray-600">Set prices and description</p>
+                </div>
+                <div>
+                    <div class="bg-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="bi bi-4-circle text-2xl text-green-600"></i>
+                    </div>
+                    <h3 class="font-semibold mb-2">Track & Sell</h3>
+                    <p class="text-gray-600">Monitor sales and shipping</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">AgroCraft</h3>
+                    <p class="text-gray-400">Empowering farmers and artisans with technology</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-white">Home</a></li>
+                        <li><a href="#" class="hover:text-white">About</a></li>
+                        <li><a href="#" class="hover:text-white">Features</a></li>
+                        <li><a href="#" class="hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Features</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-white">Storage Monitor</a></li>
+                        <li><a href="#" class="hover:text-white">Marketplace</a></li>
+                        <li><a href="#" class="hover:text-white">Price Prediction</a></li>
+                        <li><a href="#" class="hover:text-white">Logistics</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Connect With Us</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-2xl hover:text-green-400"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-2xl hover:text-green-400"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="text-2xl hover:text-green-400"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="text-2xl hover:text-green-400"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2023 AgroCraft. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu functionality
+        const mobileMenuButton = document.querySelector('.mobile-menu-button');
+        const nav = document.querySelector('nav');
+        
+        mobileMenuButton.addEventListener('click', () => {
+            const mobileMenu = document.createElement('div');
+            mobileMenu.className = 'mobile-menu absolute top-16 left-0 right-0 bg-white shadow-lg';
+            mobileMenu.innerHTML = `
+                <div class="flex flex-col p-4 space-y-4">
+                    <a href="#" class="text-gray-600 hover:text-green-600">Home</a>
+                    <a href="#" class="text-gray-600 hover:text-green-600">Marketplace</a>
+                    <a href="#" class="text-gray-600 hover:text-green-600">Storage Monitor</a>
+                    <a href="#" class="text-gray-600 hover:text-green-600">Price Analysis</a>
+                    <a href="#" class="text-gray-600 hover:text-green-600">Logistics</a>
+                    <button class="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700">Login</button>
+                </div>
+            `;
+
+            const existingMenu = document.querySelector('.mobile-menu');
+            if (existingMenu) {
+                existingMenu.remove();
+            } else {
+                nav.appendChild(mobileMenu);
+            }
+        });
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('nav')) {
+                const mobileMenu = document.querySelector('.mobile-menu');
+                if (mobileMenu) {
+                    mobileMenu.remove();
+                }
+            }
+        });
+    </script>
+<script>document.body.addEventListener('wheel', e => { if (!e.ctrlKey) return; e.preventDefault(); return }, { passive: false })</script>
+	</body>
+</html>
